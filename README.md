@@ -1,6 +1,37 @@
-# GIST 604B – OSM & PostGIS
+# OSM Post GIS
 
-Repository for working with OSM spatial data using PostgreSQL and PostGIS.
+**Student:** Jennifer Todd  
+**Course:** GIST 604B – Open Source GIS  
+**Module:** Module 5 - OSM Post GIS Spatial Analysis  
+**University of Arizona**  
+
+## Project Description
+This project focused on analyzing real-world geospatial data from OpenStreetMap using PostGIS and Python-based workflows. I worked with OSM-derived datasets in a spatial database, ran SQL queries for analysis, and used GeoPandas in Jupyter notebook.  
+
+## Tools and Technologies
+- OpenStreetMap (OSM)  
+- PostgreSQL / PostGIS  
+- SQL  
+- Python (GeoPandas, pandas)  
+- Jupyter Notebooks  
+- GitHub Codespaces
+  
+## What I Did
+- Set up and explored an OSM PostGIS database with multiple spatial layers  
+- Ran and interpreted spatial SQL queries using joins, aggregations, and CTEs  
+- Used the PostGIS geography type for spatial measurements  
+- Executed SQL queries within Jupyter notebooks and visualized results using GeoPandas
+
+## How to View / Run
+[Instructions for viewing the project. For example:
+- Link to live GitHub Pages site (if applicable)
+- How to run a Python script
+- How to open the map]
+
+## Repository Structure
+- Open the repository in GitHub Codespaces or a local environment with required dependencies installed  
+- Start the PostGIS database environment
+- Open and run the Jupyter notebooks  
 
 ## Repository Structure
 
@@ -24,10 +55,3 @@ Repository for working with OSM spatial data using PostgreSQL and PostGIS.
     ├── pyproject.toml
     ├── uv.lock
     └── README.md
-
-## Notes
-
-- Notebooks are for exploration and learning.
-- sql/arizona folder contains sql scripts discussed in the lectures.
-- Data is downloaded and prepared inside the Codespace environment and is not stored in this repository.
-- The database runs in a separate PostGIS container using Docker.
